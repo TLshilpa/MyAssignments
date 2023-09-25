@@ -1,16 +1,10 @@
 package HomeAssiginments;
 
 public class Browser {
-
-	public static void main(String[] args) {
-		Browser pro= new Browser();
-		pro.launchBrowser("Browser launched successfully");
-		pro.loadUrl();
-	}
-	
 	public void launchBrowser(String browserName)
 	{
 		System.out.println(browserName);
+		System.out.println("Browser launched successfully")
 	}
 	
 	public void loadUrl()
@@ -18,6 +12,14 @@ public class Browser {
 		System.out.println("Application url loaded successfully");
 	}
 
-
+	public static void main(String[] args) {
+		Browser pro= new Browser();
+		pro.launchBrowser("Google");
+		pro.loadUrl();
 	}
+	
+	
+
+
+}
 
