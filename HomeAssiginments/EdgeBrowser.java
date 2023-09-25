@@ -6,7 +6,7 @@ public class EdgeBrowser {
 		
 		Browser pro= new Browser();
 		
-	 pro.launchBrowser("EdgeBrowser launched succuessfully");
+	 pro.launchBrowser("Microsoft edge");
 	 
 		pro.loadUrl();
 
